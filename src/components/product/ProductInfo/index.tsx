@@ -158,7 +158,7 @@ export default function ProductInfo({ product}: ProductInfoProps) {
       {/* Stock Alert */}
       {!product.inStock && (
         <Alert variant="error">
-          <AlertCircle className="h-4 w-4 text-lomash-primary" />
+          <AlertCircle className="h-4 w-4" />
           <AlertDescription>
             This product is currently out of stock. Contact us for availability.
           </AlertDescription>
